@@ -1,0 +1,60 @@
+h1{
+    color: blue;
+}
+.header *{
+    border: solid;
+}
+.header{
+    background-color:#0FAADD;
+    display: flex;
+    justify-content:space-between;
+}
+.grid{
+    background-color: #10EEAA;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+}
+.footer{
+    background-color: #5FABCD;
+    display: flex;
+    justify-content: flex-end;
+}
+h2,p{
+    color:#1025AF;
+    text-align: center;
+}
+body{
+    background:#198123;
+}
+.menu a:link{
+    color: white;
+}
+.menu a:visited{
+    color: yellow;
+}
+.menu{
+    margin-right: 30px;
+    
+}
+
+.menu a{
+    margin-left: 20px;
+}
+.item{
+    position:relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:black;
+    opacity: 0;
+}
+.item:hover p{
+opacity: 1;
+}
+.item:hover img{
+    opacity: 0.3;
+}
